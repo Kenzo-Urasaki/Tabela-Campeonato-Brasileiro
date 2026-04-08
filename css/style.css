@@ -21,7 +21,7 @@ body {
     width: 90%;
     background-color: #1e1e1e;
     border-radius: 8px;
-    box-shadow: 5px 3px 5px rgba(72, 255, 0, 0.5);
+    box-shadow: 3px 3px 5px rgba(72, 255, 0, 0.5);
   }
 
   th, td {
