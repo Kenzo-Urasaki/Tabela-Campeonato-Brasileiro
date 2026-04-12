@@ -4,8 +4,8 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: #121212;
-    color: #e0e0e0;
+    background-color: rgba(255, 255, 255, 0);
+    color: #121212;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
   }
@@ -19,15 +19,18 @@ body {
   table {   
     max-width: 420px;
     width: 90%;
-    background-color: #1e1e1e;
+    background-color: aliceblue;
     border-radius: 8px;
-    box-shadow: 3px 3px 5px rgba(72, 255, 0, 0.5);
   }
 
   th, td {
     text-align: center;
     border-bottom: 1px solid #2a2a2a;
     letter-spacing: 2px;
+  }
+
+  .brasa {
+    color: #000000;
   }
 
   
@@ -47,3 +50,20 @@ body {
     height: 25px;
     object-fit: contain;
   }
+
+  /* ZONA LIBERTADORES - 4 PRIMEIROS (só sombra esquerda) */
+.g4 {
+    box-shadow: 5px 0px 0px blue;
+}
+
+.g5 {
+    box-shadow: 5px 0px 0px rgb(184, 98, 0);
+}
+  
+.g6 {
+  box-shadow: 5px 0px 0px green;
+}
+
+.zn {
+  box-shadow: 5px 0px 0px rgb(128, 0, 0);
+}
